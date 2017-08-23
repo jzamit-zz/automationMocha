@@ -1,0 +1,28 @@
+{
+  "name": "automation-bdd",
+  "version": "1.0.0",
+  "description": "Automation bdd using mocha, chai, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jzamit/automationMocha.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai"
+  ],
+  "author": "Jorge Zamit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jzamit/automationMocha/issues"
+  },
+  "homepage": "https://github.com/jzamit/automationMocha#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "sinon": "^3.2.1"
+  }
+}
