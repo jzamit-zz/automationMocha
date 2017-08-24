@@ -4,7 +4,7 @@
   "description": "Automation bdd using mocha, chai, etc.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -u bdd -R spec -t 1000 -- src/test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -35,5 +35,6 @@
     "eslint-plugin-react": "^7.3.0",
     "mocha": "^3.5.0",
     "sinon": "^3.2.1"
-  }
+  },
+  "dependencies": {}
 }
