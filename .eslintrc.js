@@ -2,6 +2,8 @@ module.exports = {
     "extends": "airbnb",
     "rules": {
         // enable additional rules
+        "prefer-arrow-callback": 0,
+        "func-names": 0,
         "linebreak-style": ["error", "unix"],
         "quotes": ["error", "double"],
         "semi": ["error", "always"],
